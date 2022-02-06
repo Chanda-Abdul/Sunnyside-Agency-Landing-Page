@@ -7,6 +7,9 @@
 
 ## Summary
 
+[Frontend Mentor](https://www.frontendmentor.io) challenge to recreate the [Sunnyside agency landing page](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef) using React and Sass
+
+
 ## Technology Used
 #### Front-end
 - React
@@ -24,12 +27,21 @@
         - ViewGardenButton.js
             - ViewGardenPage.js -->
                 
-        <!-- - NotFoundPage.js --> -->
+        <!-- - NotFoundPage.js -->
         - Footer.js
 
 ## To-Do
-- [ ] Fix NavBar Menu
+- [ ] Fix NavBar Burger Menu
 - [ ] Fix Graphic/Photo Image sizing on desktop
+- [ ] Add pages for About/Services/Project/Contact Links in NavBar
+    - [ ] Add Company Info Page
+    - [ ] Add Services Page
+    - [ ] Add Project/Portfolio Page
+    - [ ] Add Contact Form
+- [ ] Add page for "Learn More"/Transform
+    - [ ] Add Branding Page 
+- [ ] Add page for "Learn More"/Standout 
+    - [ ] Add Marketing Page 
 
 ## Welcome! 👋
 
