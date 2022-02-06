@@ -23,11 +23,7 @@
         <!-- - LandingPage.js
         - ViewGardenButton.js
             - ViewGardenPage.js -->
-                <!-- - PlantCard.js
-                    - DeleteButton.js
-                    - InfoButton.js
-                        - PlantCarePage.js -->
-                <!-- - AddPlantPage.js -->
+                
         <!-- - NotFoundPage.js --> -->
         - Footer.js
 
