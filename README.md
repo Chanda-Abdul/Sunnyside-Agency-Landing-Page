@@ -5,6 +5,10 @@
 ## Deployed Site
 [Sunnyside Landing Page](https://suspicious-booth-344c3d.netlify.app/)
 
+## To-Do
+- [ ] Fix NavBar Menu
+- [ ] Fix Graphic/Photo Image sizing on desktop
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.

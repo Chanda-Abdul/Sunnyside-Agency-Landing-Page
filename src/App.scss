@@ -128,11 +128,13 @@ a:visited {
   letter-spacing: 0.5rem;
   color: var(--white);
   text-transform: uppercase;
-  font-size: 1.25rem;
+  font-size: 4rem;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
 }
 
 .arrow {
-  margin-top: 3rem;
+  margin-top: 8rem;
 }
 
 /* buttons */
@@ -506,7 +508,9 @@ footer a:visited {
   }
 
   article img {
-    min-height: 100%;
+    height: 100%;
+    width: 50vw;
+    overflow: hidden;
   }
 
   .graphic article {
