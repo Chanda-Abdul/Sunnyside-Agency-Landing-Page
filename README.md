@@ -3,7 +3,7 @@
 ![Design preview for the Sunnyside agency landing page coding challenge](./src/design/desktop-preview.jpg)
 
 ## Deployed Site
-[https://suspicious-booth-344c3d.netlify.app/](Sunnyside Landing Page)
+[Sunnyside Landing Page](https://suspicious-booth-344c3d.netlify.app/)
 
 ## Welcome! 👋
 
