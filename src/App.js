@@ -1,24 +1,58 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState, useEffect } from "react";
+import "./App.css";
+import GraphicPhotoDesktop from "./components/GraphicPhotoDesktop";
+import GraphicPhotoMobile from "./components/GraphicPhotoMobile";
+import GalleryDesktop from "./components/GalleryDesktop";
+import GalleryMobile from "./components/GalleryMobile";
+import Header from "./components/Header";
+import Showcase from "./components/Showcase";
+import Standout from "./components/Standout";
+import Testimonials from "./components/Testimonials";
+import Transform from "./components/Transform";
+import Footer from "./components/Footer";
 
 function App() {
+  const [isDesktop, setDesktop] = useState(window.innerWidth > 650);
+
+  const updateMedia = () => {
+    setDesktop(window.innerWidth > 650);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", updateMedia);
+    return () => window.removeEventListener("resize", updateMedia);
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Showcase />
+      <Transform />
+      <Standout />
+      {isDesktop ? (
+        <div>
+          <GraphicPhotoDesktop />
+        </div>
+      ) : (
+        <div>
+          <GraphicPhotoMobile />
+        </div>
+      )}
+
+      <Testimonials />
+
+      {isDesktop ? (
+        <div>
+          {" "}
+          <GalleryDesktop />
+        </div>
+      ) : (
+        <div>
+          <GalleryMobile />
+        </div>
+      )}
+      <Footer />
+    </>
   );
 }
 
