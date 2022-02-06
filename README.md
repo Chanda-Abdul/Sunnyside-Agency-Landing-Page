@@ -7,7 +7,7 @@
 
 ## Summary
 
-[Frontend Mentor](https://www.frontendmentor.io) challenge to recreate the [Sunnyside agency landing page](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef) using React and Sass
+[Frontend Mentor](https://www.frontendmentor.io) challenge to recreate the [Sunnyside Agency Landing Page](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef) using React and Sass
 
 
 ## Technology Used

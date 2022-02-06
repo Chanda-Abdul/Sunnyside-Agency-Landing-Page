@@ -7,14 +7,7 @@ const Transform = () => {
   return (
     <>
       <div className="section-transform">
-        <picture>
-          <source media="(min-width:768px)" srcSet={transformDesktop} />
-          <img
-            src={transformMobile}
-            className="section-img"
-            alt="transformPhoto"
-          />
-        </picture>
+        
         <div className="section-text">
           <h1>Transform your brand</h1>
           <p>
@@ -24,6 +17,14 @@ const Transform = () => {
           </p>
           <a href="#" className="a-transform">Learn More</a>
         </div>
+        <picture>
+          <source media="(min-width:768px)" srcSet={transformDesktop} />
+          <img
+            src={transformMobile}
+            className="section-img"
+            alt="transformPhoto"
+          />
+        </picture>
       </div>
     </>
   );
