@@ -5,6 +5,32 @@
 ## Deployed Site
 [Sunnyside Landing Page](https://suspicious-booth-344c3d.netlify.app/)
 
+## Summary
+
+## Technology Used
+#### Front-end
+- React
+- HTML
+- Sass/CSS
+- Figma
+- Netlify for Deployment
+
+## React Component Structure
+- index.js (stateless)
+    - src/App.js(statefull)
+        - NavBar.js
+            <!-- - SignupButton.js
+        <!-- - LandingPage.js
+        - ViewGardenButton.js
+            - ViewGardenPage.js -->
+                <!-- - PlantCard.js
+                    - DeleteButton.js
+                    - InfoButton.js
+                        - PlantCarePage.js -->
+                <!-- - AddPlantPage.js -->
+        <!-- - NotFoundPage.js --> -->
+        - Footer.js
+
 ## To-Do
 - [ ] Fix NavBar Menu
 - [ ] Fix Graphic/Photo Image sizing on desktop
