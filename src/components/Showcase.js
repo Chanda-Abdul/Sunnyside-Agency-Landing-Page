@@ -6,7 +6,7 @@ const Showcase = () => {
     <>
       <section className="showcase">
         <div className="overlay">
-          <h1 className="text">We are creatives</h1>
+          <h1>We are creatives</h1>
           <img src={downArrow} alt="arrow" className="arrow" />
         </div>
       </section>

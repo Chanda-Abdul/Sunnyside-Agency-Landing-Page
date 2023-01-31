@@ -6,7 +6,7 @@ const Testimonials = () => {
 
   return (
     <>
-      <section className="testimonials">
+      <div className="testimonials">
         <h2 className="testimonials-header">Client testimonials</h2>
         <div className="testimony-all">
           {people.map(({ id, image, name, desc, title }) => (
@@ -18,7 +18,7 @@ const Testimonials = () => {
             </article>
           ))}
         </div>
-      </section>
+      </div>
     </>
   );
 };

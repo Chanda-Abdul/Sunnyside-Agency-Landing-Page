@@ -7,9 +7,9 @@ export const graphicMobile = [
   {
     id: 1,
     image: `${mobileGraphic}`,
-    title: "Graphic design",
+    title: "Graphic Design",
     classStyle: "graphic",
-    text: "Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’attention.",
+    text: "Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.",
   },
   {
     id: 2,

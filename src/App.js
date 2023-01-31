@@ -30,13 +30,13 @@ function App() {
       <Transform />
       <Standout />
       {isDesktop ? (
-        <div>
+     
           <GraphicPhotoDesktop />
-        </div>
+     
       ) : (
-        <div>
+    
           <GraphicPhotoMobile />
-        </div>
+    
       )}
 
       <Testimonials />

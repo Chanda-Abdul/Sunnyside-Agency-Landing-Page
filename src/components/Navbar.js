@@ -1,21 +1,39 @@
-import React, { useState } from "react";
-import { navbar } from "../data/navbar";
-import ContactButton from "./ContactButton";
+import React, { useState } from 'react';
+import { navbar } from '../data/navbar';
+
 
 const Navbar = () => {
   // eslint-disable-next-line
-  const [links, setLinks] = useState(navbar);
+
+  const links = [
+    {
+      id: 1,
+      title: 'About',
+    },
+    {
+      id: 2,
+      title: 'Services',
+    },
+    {
+      id: 3,
+      title: 'Projects',
+    },
+  ];
   return (
     <>
-      <div class="menu">
+      <div className='menu'>
         <ul>
-          {links.map(({ id, title }) => (
-            <li key={id}>
-              <a href="#">{title}</a>
-            </li>
-          ))}
+          {links.map(({id, title}) => {
+            
+            console.log(id);
+            return (
+              <li key={id}>
+                <a href='/'>{title}</a>
+              </li>
+            );
+          })}
         </ul>
-        <ContactButton />
+        {/* <ContactButton /> */}
       </div>
     </>
   );

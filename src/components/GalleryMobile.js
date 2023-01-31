@@ -6,11 +6,11 @@ const GalleryMobile = () => {
   const [cards, setCards] = useState(galleryMobile);
   return (
     <>
-      <section className="gallery">
+      <div className="gallery">
         {cards.map(({ id, image }) => (
           <img src={image} key={id} alt={image} className="image-gallery" />
         ))}
-      </section>
+      </div>
     </>
   );
 };
